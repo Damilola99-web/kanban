@@ -1,0 +1,216 @@
+{
+	"boards": [
+		{
+			"name": "Platform Launch",
+			"id": "a5364eb0-487b-4b33-8da4-3d5d86d2d693",
+			"userId": "89a4ee23-62d3-4a2e-8f57-eb4f6b2daaa2",
+			"columns": [
+				{
+					"name": "Todo",
+					"tasks": [
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "317b6d52-14d2-4e9b-b3e9-94b9f5c2c8e8",
+							"title": "Build UI for search",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "f6198bfe-bec7-4dd7-a370-5d9d960ddafe",
+									"title": "Search page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "25f19c1e-c28e-41f2-99b2-efc0c90f5a41",
+							"title": "Build settings UI",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "5de992a8-553e-4e86-b6bb-965be4ea6ed5",
+									"title": "Account page",
+									"isCompleted": false
+								},
+								{
+									"id": "8c69cc8b-0c07-4e5d-992b-6b24b3830634",
+									"title": "Billing page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "f1e0c7f7-2c2e-41c3-b15e-59f0d665d762",
+							"title": "QA and test all major user journeys",
+							"description": "Once we feel version one is ready, we need to rigorously test it both internally and externally to identify any major gaps.",
+							"subtasks": [
+								{
+									"id": "1c5b1c8e-21c5-4e77-b6ee-823ff37740a2",
+									"title": "Internal testing",
+									"isCompleted": false
+								},
+								{
+									"id": "f8b4cc82-3a37-4a68-bd32-428d6d5564d9",
+									"title": "External testing",
+									"isCompleted": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Doing",
+					"tasks": [
+						{
+							"id": "9f0a9b4b-44f7-471d-a2d7-08ba6c6a292a",
+							"title": "Design settings and search pages",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "7ac271bb-61b5-417e-8e74-97319d8e2ff4",
+									"title": "Settings - Account page",
+									"isCompleted": true
+								},
+								{
+									"id": "d04e6414-37b3-465e-b4a1-52596d33c1ec",
+									"title": "Settings - Billing page",
+									"isCompleted": true
+								},
+								{
+									"id": "aa0786b8-4a3f-4ff2-a7fe-91543151e99c",
+									"title": "Search page",
+									"isCompleted": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Done",
+					"tasks": [
+						{
+							"id": "5e14400a-707a-4e95-a450-c546f67772d1",
+							"title": "Conduct 5 wireframe tests",
+							"description": "Ensure the layout continues to make sense and we have strong buy-in from potential users.",
+							"subtasks": [
+								{
+									"id": "c5904f57-cd5e-4f48-964b-5f15e5c7330e",
+									"title": "Complete 5 wireframe prototype tests",
+									"isCompleted": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Marketing Plan",
+			"id": "96e3992d-7a9a-4a5f-aa04-0e9e3a00e014",
+			"userId": "89a4ee23-62d3-4a2e-8f57-eb4f6b2daaa2",
+			"columns": [
+				{
+					"name": "Todo",
+					"tasks": [
+						{
+							"id": "d86b16c3-6f02-4573-8b8e-838ee7115fe9",
+							"title": "Plan Product Hunt launch",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "b51b9c1f-c1b9-43f3-8aa2-f17223ff64e4",
+									"title": "Find hunter",
+									"isCompleted": false
+								},
+								{
+									"id": "43e57587-29c3-4705-b5a1-98fe12c1c9ef",
+									"title": "Gather assets",
+									"isCompleted": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Doing",
+					"tasks": []
+				},
+				{
+					"name": "Done",
+					"tasks": []
+				}
+			]
+		},
+		{
+			"name": "Roadmap",
+			"id": "f4bc224c-53f9-404e-8a35-ae7846c5372f",
+			"userId": "89a4ee23-62d3-4a2e-8f57-eb4f6b2daaa2",
+			"columns": [
+				{
+					"name": "Now",
+					"tasks": [
+						{
+							"id": "d0e3c217-1480-471d-9b6a-813ea00d7733",
+							"title": "Launch version one",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "23a0b651-f1b8-4db5-9361-e9d8c68c879f",
+									"title": "Launch privately to our waitlist",
+									"isCompleted": false
+								},
+								{
+									"id": "344f6ac7-094b-4f2c-8f9e-3c67a4f25445",
+									"title": "Launch publicly on PH, HN, etc.",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "5fbd95fb-f51d-4a16-a62e-139dc547c3c2",
+							"title": "Review early feedback and plan next steps for roadmap",
+							"description": "Beyond the initial launch, we're keeping the initial roadmap completely empty. This meeting will help us plan out our next steps based on actual customer feedback.",
+							"subtasks": [
+								{
+									"id": "c2720764-99d2-45e3-8e2a-6c49d7d0f26e",
+									"title": "Interview 10 customers",
+									"isCompleted": false
+								},
+								{
+									"id": "e61b8e24-4baa-45ec-9cb8-eb4febe27234",
+									"title": "Review common customer pain points and suggestions",
+									"isCompleted": false
+								},
+								{
+									"id": "5e095e91-ebd9-40b2-824d-d12d64ff6f96",
+									"title": "Outline next steps for our roadmap",
+									"isCompleted": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
