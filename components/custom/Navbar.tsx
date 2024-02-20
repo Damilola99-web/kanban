@@ -36,7 +36,7 @@ export default function Navbar() {
 				
 					<div
 						onClick={() => open('mobileTab')}
-						className=' md:hidden cursor-pointer flex items-center space-x-2 '
+						className=' md:hidden cursor-pointer flex items-center space-x-1 '
 					>
 						<p className=' font-bold text-xl'>
 							{boardData?.name || 'No Board Found '}

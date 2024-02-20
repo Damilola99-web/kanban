@@ -8,7 +8,7 @@ export default function EmptyBoard() {
 			<p className=' text-center font-semibold'>
 				Your Kanban is empty. Create a new board to get started
 			</p>
-			<Button onClick={() => open('createBoard')}>
+			<Button className='hover:text-[#635fc7]' onClick={() => open('createBoard')}>
 				+ Create New Board
 			</Button>
 		</div>
