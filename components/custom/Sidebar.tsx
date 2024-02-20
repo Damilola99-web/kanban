@@ -22,7 +22,8 @@ export default function Sidebar() {
 	const { close } = useSidebar();
 
 	return (
-		<div className=' hidden md:flex w-[300px] fixed flex-col justify-between  text-[#828fa3] h-[calc(100vh-96px)] border-[#e4ebfa]   border-r-[1px] cursor-default overflow-x-hidden pt-6 pb-8 z-[2]'>
+		// remember to add the z index, you removed it while debugging
+		<div className=' hidden md:flex w-[300px] fixed flex-col justify-between  text-[#828fa3] h-[calc(100vh-96px)] border-[#e4ebfa]   border-r-[1px] cursor-default overflow-x-hidden pt-6 pb-8 '>
 			<div className=' top'>
 				<p className=' mb-4 pl-8 text-[#828fa3] font-bold text-sm'>
 					ALL BOARDS ({boards.length})

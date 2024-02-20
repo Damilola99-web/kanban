@@ -7,28 +7,49 @@ import { useBoardData } from '@/hooks/useBoardData';
 import { Button } from '../ui/button';
 import { useModal } from '@/hooks/useModals';
 import { Plus } from 'lucide-react';
+import Invert from './ui/Invert';
+import { cn } from '@/lib/utils';
+
 export default function Navbar() {
 	const { currentBoard, data } = useBoardData();
-	const { open } = useModal();
+	const { type, open } = useModal();
 	const boardData = data.filter((board) => board.id === currentBoard)[0];
 	return (
-		<div className=' fixed bg-[#ffffff] h-[96px] w-screen flex  '>
+		<div className=' fixed bg-[#ffffff] h-[96px] max-w-screen w-screen flex  '>
 			<div className='hidden md:flex  w-[300px] items-center p-8 border-r-[1px] border-b-[1px] border-[##e4ebfa]'>
 				<Image
 					src={Logo}
 					alt='logo'
 				/>
 			</div>
-			<div className='md:w-[calc(100%-300px)] w-full border-b-[1px] border-[##e4ebfa] px-8 flex items-center justify-between'>
+			<div className='md:w-[calc(100%-300px)] w-full border-b-[1px] border-[##e4ebfa] px-6 md:px-8 flex items-center justify-between'>
 				<p className=' hidden md:flex font-bold text-2xl'>
 					{boardData?.name || 'No Board Found '}
 				</p>
+
 				<div className=' md:hidden flex items-center justify-center space-x-2'>
-					<img src="/logo-mobile.svg" alt="logo" className='mr-3' />
-				<p className=' font-bold text-xl'>
-					{boardData?.name || 'No Board Found '}
-					</p>
-					
+					<img
+						src='/logo-mobile.svg'
+						alt='logo'
+						className='mr-3'
+					/>
+				
+					<div
+						onClick={() => open('mobileTab')}
+						className=' md:hidden cursor-pointer flex items-center space-x-2 '
+					>
+						<p className=' font-bold text-xl'>
+							{boardData?.name || 'No Board Found '}
+						</p>
+						<div
+							className={cn(
+								' flex items-center transition-all duration-300 ',
+								type == 'mobileTab' ? 'rotate-180' : 'rotate-0'
+							)}
+						>
+							<Invert />
+						</div>
+					</div>
 				</div>
 				{boardData && (
 					<div className='  flex space-x-4 items-center justify-center'>
@@ -36,9 +57,12 @@ export default function Navbar() {
 							className=' md:text-base md:px-4 md:py-3 text-2xl px-4 py-1 flex items-center justify-center align-middle'
 							onClick={() => open('createTask')}
 						>
-							<Plus />
-							<span className=' hidden md:flex'>
-								Add New Task
+							<Plus
+								size={20}
+								className='md:hidden'
+							/>
+							<span className=' align-middle text-sm font-semibold hidden md:flex'>
+								+ Add New Task
 							</span>
 						</Button>
 						<Popover>

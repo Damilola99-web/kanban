@@ -13,7 +13,7 @@ export default function Column({ column, i }: { column: IColumn; i: number }) {
 	return (
 		<div
 			key={Date.now.toString()}
-			className=' flex  flex-col h-full min-w-[17.5rem] w-[17.5rem] mr-8'
+			className=' flex  flex-col h-full min-w-[17.5rem] w-[17.5rem] mr-8 '
 		>
 			<div className=' flex mb-6 uppercase text-[#828fa3] font-semibold text-sm items-center'>
 				<span
@@ -28,10 +28,9 @@ export default function Column({ column, i }: { column: IColumn; i: number }) {
 				<div className=' w-full h-full outline-dashed outline-2 outline-[#828fa366] rounded-[6px]'></div>
 			)}
 			{column.tasks.map((task) => (
-				<Task
-					key={task.id}
-					task={task}
-				/>
+				<div key={task.id}>
+					<Task task={task} />
+				</div>
 			))}
 		</div>
 	);

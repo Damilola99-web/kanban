@@ -31,6 +31,138 @@
 							]
 						},
 						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
+							"id": "3d7a0e2c-03e2-4c69-b26d-69b4aaecf880",
+							"title": "Build UI for onboarding flow",
+							"description": "",
+							"subtasks": [
+								{
+									"id": "8645cbf5-76e1-4c16-8db8-df1ac2c3cfd7",
+									"title": "Sign up page",
+									"isCompleted": true
+								},
+								{
+									"id": "e746a5f7-4b92-4a09-9bb6-e8c8de17bc9d",
+									"title": "Sign in page",
+									"isCompleted": false
+								},
+								{
+									"id": "f5903835-4a2b-4189-bb5c-0ecf5c72ef67",
+									"title": "Welcome page",
+									"isCompleted": false
+								}
+							]
+						},
+						{
 							"id": "317b6d52-14d2-4e9b-b3e9-94b9f5c2c8e8",
 							"title": "Build UI for search",
 							"description": "",

@@ -12,12 +12,12 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
 	const { modalOpen } = useModal();
 
 	return (
-		<div className=' h-full flex flex-col  w-full min-h-screen'>
+		<div className=' flex flex-col  w-screen h-screen'>
 			{modalOpen && <MainModal />}
 			<div className=''>
 				<Navbar />
 			</div>
-			<main className='mt-[96px] relative h-full min-h-[calc(100vh-96px)]'>
+			<main className='mt-[96px] relative h-full min-h-[calc(100vh-96px)] overflow-y-hidden'>
 				{isOpen && <Sidebar />}
 				{!isOpen && (
 					<div
